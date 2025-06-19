@@ -3,7 +3,8 @@
 This repo preserves a collection of World of Warcraft 1.12.1 Vanilla addons to ensure they do not become lost media.
 
 [Browse Addons →](./Wow%201.12.1%20Addons%20(Click%20Here)) 🔗
-[Download Addons)](https://github.com/RSKCS2/WoW-1.12.1-Addon-List/releases/download/Addon_Collection/WoW.1.12.1.Addons.7z)
+
+[Download Addons)](https://github.com/RSKCS2/WoW-1.12.1-Addon-List/releases/download/Addon_Collection/WoW.1.12.1.Addons.7z) ⬇️
 
 ---
 
