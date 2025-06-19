@@ -1,0 +1,11 @@
+## Interface: 11200
+## Title: SmartPet
+## Notes: Makes your pet smarter. V2.5.1
+## SavedVariables: SmartPet_Player_Config
+## OptionalDeps: myAddOns, KeyMinder
+## Dependencies: 
+SmartPet.xml
+SmartPetSpellBook.xml
+SmartPetGUI.xml
+SmartPetAttack.xml
+SmartPetDefend.xml

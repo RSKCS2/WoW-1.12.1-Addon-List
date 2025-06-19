@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: Set Wrangler
+## Author: Jenavive
+## Notes: Set Wrangler by Jenavive of Skywall
+## SavedVariables: SetWranglerOptions
+SetWrangler.xml
+SetWranglerOptions.xml

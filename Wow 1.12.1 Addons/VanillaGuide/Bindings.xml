@@ -1,0 +1,31 @@
+<!-- ----------------------------------------------------
+----- VanillaGuide -----
+------------------------
+Binding.xml
+Authors: mrmr
+Version: 1.03.1
+------------------------------------------------------
+Description: 
+      Powerleveling Guide for 1.12.1 servers
+    based on Joana Guide
+    1.03
+  -- Initial Keybinding Support. Not Working yet...
+-->
+
+<Bindings>
+   <Binding name="VGUIDE_TOGGLE" header="VGUIDE">
+      <!-- VGuide:ToggleMainWindow() -->
+   </Binding>
+   <Binding name="VGUIDE_NEXT_STEP">
+      <!-- VGuide:NextStep() -->
+   </Binding>
+   <Binding name="VGUIDE_PREV_STEP">
+      <!-- VGuide:PrevStep() -->
+   </Binding>
+   <Binding name="VGUIDE_NEXT_GUIDE">
+      <!-- VGuide:NextGuide() -->
+   </Binding>
+   <Binding name="VGUIDE_PREV_GUIDE">
+      <!-- VGuide:PrevGuide() -->
+   </Binding>
+</Bindings>

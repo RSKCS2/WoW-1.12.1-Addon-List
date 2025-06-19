@@ -1,0 +1,11 @@
+## Interface: 11200
+## Title: FuBar - |cffffffffReagent|r|cff00ff00Fu|r
+## Notes: Manage yor Reagents you need for buffs
+## Author: drathos
+## eMail: drathos@gmail.com
+## Dependencies: Ace, FuBar
+## SavedVariables: ReagentFuDB
+## Version: 1.2.2
+## LoadOnDemand: 1
+ReagentFuLocals.lua
+ReagentFu.lua

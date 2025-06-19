@@ -1,0 +1,68 @@
+<Bindings>
+   	<Binding name="SERENITYLEFT" header="CRYO_BIND">
+   		Serenity_Toggle("LeftButton", true);
+   	</Binding>
+	<Binding name="SERENITYRIGHT" header="CRYO_BIND">
+   		Serenity_Toggle("RightButton", true);
+   	</Binding>
+	
+   	<Binding name="POTIONLEFT" header="CRYO_BIND">
+    		Serenity_UseItem("Potion", "LeftButton", true);
+	</Binding>
+   	<Binding name="POTIONMIDDLE" header="CRYO_BIND">
+    		Serenity_UseItem("Potion", "MiddleButton", true);
+    </Binding>
+	<Binding name="POTIONRIGHT" header="CRYO_BIND">
+    		Serenity_UseItem("Potion", "RightButton", true);
+    </Binding>
+
+   	<Binding name="DRINKLEFT" header="CRYO_BIND">
+    		Serenity_UseItem("Drink", "LeftButton", true);
+	</Binding>
+   	<Binding name="DRINKMIDDLE" header="CRYO_BIND">
+    		Serenity_UseItem("Drink", "MiddleButton", true);
+	</Binding>
+   	<Binding name="DRINKRIGHT" header="CRYO_BIND">
+    		Serenity_UseItem("Drink", "RightButton", true);
+	</Binding>
+
+   	<Binding name="DISPELLEFT" header="CRYO_BIND">
+    		Serenity_Decursive("Magic");
+	</Binding>
+   	<Binding name="DISPELRIGHT" header="CRYO_BIND">
+    		Serenity_Decursive("Disease");
+			
+	</Binding>
+   	<Binding name="LASTBUFF" header="CRYO_BIND">
+    		Serenity_BuffMenu("RightButton", true);
+	</Binding>
+   	<Binding name="LASTSSPELL" header="CRYO_BIND">
+    		Serenity_SpellMenu("RightButton", true);
+	</Binding>
+	<Binding name="STEED" header="CRYO_BIND">
+    		Serenity_UseItem("Mount", "LeftButton", true);
+    	</Binding>
+	<Binding name="HEARTH" header="CRYO_BIND">
+    		Serenity_UseItem("Mount", "RightButton", true);
+    	</Binding>
+	<Binding name="LEFTSPELLLEFT" header="CRYO_BIND">
+    		Serenity_SpellButtonCast("Left", "LeftButton", true);
+    	</Binding>
+	<Binding name="LEFTSPELLRIGHT" header="CRYO_BIND">
+    		Serenity_SpellButtonCast("Left", "RightButton", true);
+    	</Binding>
+		
+	<Binding name="MIDDLESPELLLEFT" header="CRYO_BIND">
+    		Serenity_SpellButtonCast("Middle", "LeftButton", true);
+    	</Binding>
+	<Binding name="MIDDLESPELLRIGHT" header="CRYO_BIND">
+    		Serenity_SpellButtonCast("Middle", "RightButton", true);
+    	</Binding>
+		
+	<Binding name="RIGHTSPELLLEFT" header="CRYO_BIND">
+    		Serenity_SpellButtonCast("Right", "LeftButton", true);
+    	</Binding>
+	<Binding name="RIGHTSPELLRIGHT" header="CRYO_BIND">
+    		Serenity_SpellButtonCast("Right", "RightButton", true);
+    	</Binding>
+</Bindings>

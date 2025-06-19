@@ -1,0 +1,44 @@
+Version 1.12.8
+
+August 25 - 1.12.8
+-Added ZHunterAIFeignHealth
+-Fixed an error if you only had 1 of the button spells
+
+August 24 - 1.12.7
+-Woops... fixed AntiDaze even further
+
+August 24 - 1.12.6
+-Fixed the lock up issue with the AntiDaze feature
+
+August 23 - 1.12.5
+-Might've fixed some lockup issues
+-Made the buttons overlap the user interface
+-More translations
+
+August 23 - 1.12.4
+-Tranq rotation icons now update
+-Added some more translations
+-Possibly fixed some button load errors
+
+August 22 - 1.12.3
+-Updated for Patch 1.12
+-Fixed a problem while clearing the Tranq rotation
+-Should've removed the error for ZPet (Although the button probably still won't work because I still don't have the translations. Let me know if theres an error on the English client)
+-Added some German translations
+
+August 21 - 1.12.2
+-Fixed the Tranq bar so it accepts hunters
+-Fixed the aspect bar
+
+August 21 - 1.12.1
+-Fixed a problem with the number of buttons displayed
+
+August 21 - 1.12.0
+-Altered (and hopefully fixed) all of the spell buttons
+-Fixed Smart Ammo to work with all ammo
+-Added a Pet Spell action bar
+-Added an Anti-Daze feature
+-Added a way to report your Tranq Shot results in a channel
+-Added a feature to automatically change the frenzy timer based on the boss
+-Added a /script ZPetAttackOrReturn() command
+-Added a /script IsPetDead() command

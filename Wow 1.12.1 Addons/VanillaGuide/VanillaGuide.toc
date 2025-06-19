@@ -1,0 +1,45 @@
+## Interface: 11200
+
+## Title: VanillaGuide |cff7fff7f -Ace2-|r
+## Notes: Step-by-Step 1-60 Guide, in an Ace addon.
+## Author: mrmr
+## Version: 1.03.1
+## DefaultState: enabled
+## LoadOnDemand: 0
+
+## X-Credits: Joana/Mancow and Brian Kopps for the guides.
+## X-Credits: myself for the Joana's guide and the addon itself.
+## X-Credits: Kira and Cdlp for the Brian Kopps' guide.
+## X-Category: Quests
+## X-Date: 2013-02-12
+## X-ReleaseDate: 2012-xx-xx
+## X-Email: rsheep@gmail.com
+## X-Website: http://vanillaguide.googlecode.com
+## X-Embeds: Ace2, FuBar-Plugin-2.0, Tablet-2.0
+
+## OptionalDeps: Ace2, FuBar, Tablet-2.0
+
+## SavedVariables: VGuideDB
+## SavedVariablesPerCharacter: VGuideDBPC
+
+libs\AceLibrary\AceLibrary.lua
+libs\AceOO-2.0\AceOO-2.0.lua
+libs\AceConsole-2.0\AceConsole-2.0.lua
+libs\AceEvent-2.0\AceEvent-2.0.lua
+libs\AceAddon-2.0\AceAddon-2.0.lua
+libs\AceDB-2.0\AceDB-2.0.lua
+libs\AceDebug-2.0\AceDebug-2.0.lua
+
+Core.lua
+Display.lua
+UI.lua
+SlashCommands.lua
+DropDownMenu.lua
+GuideStepsAlly.lua
+GuideStepsHorde.lua
+
+libs\Tablet-2.0\Tablet-2.0.lua
+libs\Dewdrop-2.0\Dewdrop-2.0.lua
+libs\FuBarPlugin-2.0\FubarPlugin-2.0.lua
+
+VGuideFu.lua

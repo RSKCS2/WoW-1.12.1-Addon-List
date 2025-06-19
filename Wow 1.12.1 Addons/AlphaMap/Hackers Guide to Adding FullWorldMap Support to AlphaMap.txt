@@ -1,0 +1,194 @@
+
+NOTE: Since the original release of this document, the following AddOn versions no longer need to be hacked to fully work with AlphaMap :
+Any version of "MozzFullWorldMap (Fan's Update)"
+Any version of "MetaMapFWM" since version 3.30
+
+
+This document explains the small changes that can be made in other AddOns based on the original MozzFullWorldMap AddOn, that will allow undiscovered map areas to be displayed in AlphaMap.
+
+This document contains 2 sections.
+
+One details the changes that need to be made to "MozzFullWorldMap 1.10 + configurable"
+The other details the changes that can be made to "MetaMapFWM"
+
+You must have one of the above AddOns, and make the changes detailed below to enable FullWorldMap functionality in AlphaMap.
+
+I have approached the authors of these two AddOns, to see if they would be willing to make these changes in future releases of their Mods, and we will have to wait and see if they agree to do so.
+
+The original MozzFullWorldMap AddOn is no longer in development, and both of the AddOns mentioned below are basically identical to that orignal mod with some small bug fixes.   Rather than me also copying this code in to AlphaMap, I felt the neatest approach would be for us authors to cooperate with each other. The changes to the AddOns suggested below, would not make them dependant on AlphaMap in any way. These changes would allow any other Mapping AddOn that used a similar xml naming convention to access the FullWorldMap functionality, when installed at the same time.
+
+Anyway, if my altruistic approach fails to bear fruit, then I also will copy the original MozzFullWorldMap code in to AlphaMap itself for the next release (giving full credits to the original author of course).
+
+If the authors of these 2 AddOns do agree to make these tiny modifications, then please note that AlphaMap v1.50.11000 is already primed and ready to take advantage of these changes.
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+--------------------------------------
+"MozzFullWorldMap 1.10 + configurable"
+--------------------------------------
+
+ALL the changes below need to be made within the  'worldMapFrame_UpdateOverlays'  function.
+
+
+1.)
+Replace the following line :
+
+	local function worldMapFrame_UpdateOverlays()
+
+With the following 8 lines :
+
+	function worldMapFrame_UpdateOverlays(dtlFrame, ovrLay)
+	    local mapOverLay;
+	    if ( ( dtlFrame ) and ( ovrLay ) ) then
+		mapOverLay = ovrLay;
+	    else
+		dtlFrame = "WorldMapDetailFrame";
+		mapOverLay = "WorldMapOverlay";
+	    end
+
+
+
+2.)
+Replace the following line :
+
+                    texture = getglobal( "WorldMapOverlay"..(textureCount+1) );
+
+With the following code :
+
+                    texture = getglobal( mapOverLay..(textureCount+1) );
+
+
+
+
+3.)
+Replace the following lines :
+
+                    texture:SetPoint("TOPLEFT", "WorldMapDetailFrame", "TOPLEFT",
+                        offsetX + (256 * (k-1)), -(offsetY + (256 * (j - 1))));
+
+With the following code :
+
+                    texture:SetPoint("TOPLEFT", dtlFrame, "TOPLEFT",
+                        offsetX + (256 * (k-1)), -(offsetY + (256 * (j - 1))));
+
+
+
+
+4.)
+Replace the following line :
+
+    for i=textureCount+1, NUM_WORLDMAP_OVERLAYS do getglobal("WorldMapOverlay"..i):Hide(); end
+
+With the following code :
+
+    for i=textureCount+1, NUM_WORLDMAP_OVERLAYS do getglobal(mapOverLay..i):Hide(); end
+
+
+
+
+N.B. - Before you analyse the above changes and decide that you just need to replace every "WorldMapOverlay" with mapOverLay, and every "WorldMapDetailFrame" with dtlFrame, then STOP. There is one line of code that references the WorldMapDetailFrame and "WorldMapOverlay" that should NOT be substituted. And remember these changes are only being made in the  'worldMapFrame_UpdateOverlays'  function.
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+
+------------
+"MetaMapFWM"
+------------
+
+ALL the changes below need to be made within the  'worldMapFrame_UpdateOverlays'  function.
+
+
+1.)
+Replace the following line :
+
+	local function worldMapFrame_UpdateOverlays()
+
+With the following 8 lines :
+
+	function worldMapFrame_UpdateOverlays(dtlFrame, ovrLay)
+	    local mapOverLay;
+	    if ( ( dtlFrame ) and ( ovrLay ) ) then
+		mapOverLay = ovrLay;
+	    else
+		dtlFrame = "WorldMapDetailFrame";
+		mapOverLay = "WorldMapOverlay";
+	    end
+
+
+
+2.)
+Replace the following lines :
+
+	for i=1, 100 do
+		if(getglobal("WorldMapOverlay"..i) == nil) then
+			break;
+		end
+		getglobal("WorldMapOverlay"..i):Hide();
+	end
+
+With the following lines :
+
+	for i=1, 100 do
+		if(getglobal(mapOverLay..i) == nil) then
+			break;
+		end
+		getglobal(mapOverLay..i):Hide();
+	end
+
+
+
+
+3.)
+Replace the following lines :
+
+    				texture = getglobal("WorldMapOverlay"..textureCount);
+
+With the following lines :
+
+    				texture = getglobal(mapOverLay..textureCount);
+
+
+
+
+4.)
+Replace the following line :
+
+    				texture:SetPoint("TOPLEFT", "WorldMapDetailFrame", "TOPLEFT",
+    				    offsetX + (256 * (k-1)), -(offsetY + (256 * (j - 1))));
+
+With the following line :
+
+    				texture:SetPoint("TOPLEFT", dtlFrame, "TOPLEFT",
+    				    offsetX + (256 * (k-1)), -(offsetY + (256 * (j - 1))));
+
+
+
+
+
+5.)
+Replace the following line :
+
+		getglobal("WorldMapOverlay".i):Hide();
+
+With the following line :
+
+		getglobal(mapOverLay..i):Hide();
+
+
+
+
+
+N.B. - Before you analyse the above changes and decide that you just need to replace every "WorldMapOverlay" with mapOverLay, and every "WorldMapDetailFrame" with dtlFrame, then STOP. There is one line of code that references the WorldMapDetailFrame and "WorldMapOverlay" that should NOT be substituted. And remember these changes are only being made in the  'worldMapFrame_UpdateOverlays'  function.

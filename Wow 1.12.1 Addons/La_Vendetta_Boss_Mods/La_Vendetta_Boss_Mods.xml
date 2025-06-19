@@ -1,0 +1,109 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="localization.en.lua"/>
+	<Script file="localization.de.lua"/>
+	<Script file="localization.fr.lua"/>
+	<Script file="localization.cn.lua"/>
+	<Script file="localization.tw.lua"/>
+	<Script file="Patchnotes.lua"/>
+	<Script file="LVBM_API.lua"/>
+	<Script file="LVBM_StatusBars.lua"/>
+	<Include file="LVBM_API.xml"/>
+	<Include file="LVBM_StatusBars.xml"/>
+	<Include file="LVBM_GUI.xml"/>
+	
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\localization.en.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\localization.de.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\localization.cn.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\localization.tw.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Spider\LVAnubRekhan.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Spider\LVGrandWidowFaerlina.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Spider\LVMaexxna.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Ghoul\LVNoth.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Ghoul\LVHeigan.lua"/>
+	<Include file="Naxxramas\Ghoul\LVLoatheb.xml"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Ghoul\LVLoatheb.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Deathknight\LVRazuvious.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Deathknight\LVGothik.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Deathknight\LVFourHorsemen.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Abomination\LVPatchwerk.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Abomination\LVGrobbulus.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Abomination\LVGluth.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Abomination\LVThaddius.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Frostwyrm\LVSapphiron.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Naxxramas\Frostwyrm\LVKelthuzad.lua"/>
+
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\localization.en.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\localization.de.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\localization.tw.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\localization.cn.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\LVSkeram.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\LVThreeBugs.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\LVSartura.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\LVFankriss.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\LVViscidus.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\LVHuhuran.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\LVDefender.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\LVTwinEmps.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\LVCThun.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Temple\LVOuro.lua"/>
+
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Ruins\localization.en.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Ruins\localization.de.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Ruins\localization.tw.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Ruins\LVRajaxx.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Ruins\LVMoam.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Ruins\LVBuru.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Ruins\LVAyamiss.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Ruins\LVOssirian.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\AhnQiraj\Ruins\LVAnubisathGuardians.lua"/>
+
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\localization.en.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\localization.de.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\localization.fr.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\localization.tw.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\localization.cn.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\LVRazorgore.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\LVVaelastrasz.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\LVFiremaw.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\LVEbonroc.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\LVFlamegor.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\LVChromaggus.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\BlackwingLair\LVNefarian.lua"/>
+
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\MoltenCore\localization.en.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\MoltenCore\localization.de.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\MoltenCore\localization.tw.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\MoltenCore\localization.cn.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\MoltenCore\LVLucifron.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\MoltenCore\LVMagmadar.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\MoltenCore\LVGehennas.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\MoltenCore\LVGeddon.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\MoltenCore\LVShazzrah.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\MoltenCore\LVMajordomo.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\MoltenCore\LVRagnaros.lua"/>
+
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Other\localization.en.lua"/>	
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Other\localization.de.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Other\localization.tw.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Other\localization.cn.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Other\LVBattlegrounds.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Other\LVKazzak.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Other\LVOnyxia.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Other\LVOutdoorDragons.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Other\LVAzuregos.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\Other\LVRunecloth.lua"/>
+
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\ZulGurub\localization.en.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\ZulGurub\localization.de.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\ZulGurub\localization.tw.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\ZulGurub\LVJeklik.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\ZulGurub\LVVenoxis.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\ZulGurub\LVMarli.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\ZulGurub\LVMandokir.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\ZulGurub\LVArlokk.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\ZulGurub\LVHakkar.lua"/>
+	<Script file="Interface\AddOns\La_Vendetta_Boss_Mods\ZulGurub\LVJindo.lua"/>
+
+	<Script file="Bosses.lua"/>
+</Ui>

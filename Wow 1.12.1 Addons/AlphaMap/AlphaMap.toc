@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: AlphaMap (v2.25.11100)
+## Author: Telic  telic@hotmail.co.uk  (Original v1 Jeromy Walsh)
+## Notes: A semi-transparent worldmap overlay that does not interupt character control. Update by telic@hotmail.co.uk.
+## OptionalDeps: MapNotes, Gatherer, MapNotesGathering, MetaMap, CT_MapMod, FlightMap, NotesUNeed, GuildMap, AtlasLoot, Atlas
+## SavedVariables: AlphaMapConfig, AlphaMapConfigurations
+AlphaMap.xml

@@ -1,0 +1,136 @@
+------------------------------------------------------------------------
+r11505 | tazmanyak | 2006-09-20 07:15:22 -0700 (Wed, 20 Sep 2006) | 1 line
+
+DurabilityFu - Added Fr locales file
+------------------------------------------------------------------------
+r10980 | hshh | 2006-09-15 02:57:25 -0700 (Fri, 15 Sep 2006) | 1 line
+
+FuBar: Added Simplified Chinese locale
+------------------------------------------------------------------------
+r9763 | ckknight | 2006-09-01 14:45:46 -0700 (Fri, 01 Sep 2006) | 1 line
+
+DurabilityFu - upgraded to 2.0
+------------------------------------------------------------------------
+r9760 | ckknight | 2006-09-01 14:20:42 -0700 (Fri, 01 Sep 2006) | 1 line
+
+DurabilityFu - added libs directory
+------------------------------------------------------------------------
+r2314 | ckknight | 2006-06-03 20:42:50 -0700 (Sat, 03 Jun 2006) | 1 line
+
+DurabilityFu - fixed Crayon typo.
+------------------------------------------------------------------------
+r2312 | ckknight | 2006-06-03 16:15:20 -0700 (Sat, 03 Jun 2006) | 1 line
+
+Changed FuBarUtils references to AbacusLib/CrayonLib references.
+------------------------------------------------------------------------
+r1551 | ckknight | 2006-05-06 21:08:11 -0700 (Sat, 06 May 2006) | 1 line
+
+Changed fuCompatible = 102 to :GetInstance("1.2")
+------------------------------------------------------------------------
+r1541 | ckknight | 2006-05-06 20:06:00 -0700 (Sat, 06 May 2006) | 1 line
+
+FuBar_DurabilityFu - updated for BabbleLib 1.1
+------------------------------------------------------------------------
+r1470 | ckknight | 2006-05-05 19:25:29 -0700 (Fri, 05 May 2006) | 1 line
+
+FuBar_DurabilityFu - properly fixes the metal man.
+------------------------------------------------------------------------
+r1327 | ckknight | 2006-05-01 21:24:02 -0700 (Mon, 01 May 2006) | 1 line
+
+FuBar_DurabilityFu - now says it has nothing to repair when there's nothing to auto-repair.
+------------------------------------------------------------------------
+r1260 | ckknight | 2006-04-30 20:24:21 -0700 (Sun, 30 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - fixed inventory repair logic.
+------------------------------------------------------------------------
+r1259 | ckknight | 2006-04-30 20:18:27 -0700 (Sun, 30 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - updated deDE translation.
+------------------------------------------------------------------------
+r1238 | ckknight | 2006-04-30 16:04:20 -0700 (Sun, 30 Apr 2006) | 1 line
+
+Changed author from Boss to ckknight.
+------------------------------------------------------------------------
+r1158 | ckknight | 2006-04-29 06:55:32 -0700 (Sat, 29 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - now uses Metrognome
+------------------------------------------------------------------------
+r1103 | ckknight | 2006-04-28 14:19:14 -0700 (Fri, 28 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - updated for procedural tooltips.
+------------------------------------------------------------------------
+r1063 | ckknight | 2006-04-27 17:05:37 -0700 (Thu, 27 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - fixed TOC and README.txt to say 1.1
+------------------------------------------------------------------------
+r1044 | ckknight | 2006-04-27 07:17:06 -0700 (Thu, 27 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - DurabilityFu.lua:430: attempt to compare nil with number
+------------------------------------------------------------------------
+r1021 | ckknight | 2006-04-26 20:58:43 -0700 (Wed, 26 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - fixed nil menu bug.
+------------------------------------------------------------------------
+r991 | ckknight | 2006-04-26 16:17:06 -0700 (Wed, 26 Apr 2006) | 2 lines
+
+FuBar_DurabilityFu - updated deDE translation
+Added auto-repairing.
+------------------------------------------------------------------------
+r931 | ckknight | 2006-04-26 03:45:50 -0700 (Wed, 26 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - Updated for 1.1
+------------------------------------------------------------------------
+r877 | ckknight | 2006-04-25 18:52:16 -0700 (Tue, 25 Apr 2006) | 2 lines
+
+FuBar_DurabilityFu - deDE Translations (thanks to Chinkuwaila)
+Theoretically made this more efficient.
+------------------------------------------------------------------------
+r820 | ckknight | 2006-04-24 13:01:07 -0700 (Mon, 24 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - clicking the total button in the popup actually repairs both now.
+------------------------------------------------------------------------
+r817 | ckknight | 2006-04-24 12:45:47 -0700 (Mon, 24 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - removed unnecessary line.
+------------------------------------------------------------------------
+r816 | ckknight | 2006-04-24 12:35:04 -0700 (Mon, 24 Apr 2006) | 2 lines
+
+FuBar_DurabilityFu - in popup, numbers now work with custom fonts.
+grayed out icons also get darker.
+------------------------------------------------------------------------
+r812 | ckknight | 2006-04-24 12:02:54 -0700 (Mon, 24 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - fixed close popup nil bug.
+------------------------------------------------------------------------
+r791 | ckknight | 2006-04-24 03:27:10 -0700 (Mon, 24 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - now LoadOnDemand
+------------------------------------------------------------------------
+r785 | ckknight | 2006-04-24 03:03:57 -0700 (Mon, 24 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - Made repair popup shiny.
+------------------------------------------------------------------------
+r652 | ckknight | 2006-04-22 23:59:17 -0700 (Sat, 22 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - Updated GratuityLib path.
+------------------------------------------------------------------------
+r638 | ckknight | 2006-04-22 23:36:33 -0700 (Sat, 22 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - put GratuityLib as an svn:external
+------------------------------------------------------------------------
+r630 | ckknight | 2006-04-22 22:34:57 -0700 (Sat, 22 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - updated to use GratuityLib.
+------------------------------------------------------------------------
+r303 | ckknight | 2006-04-17 10:16:34 -0700 (Mon, 17 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - Fixed unfinished string typo.
+------------------------------------------------------------------------
+r291 | ckknight | 2006-04-17 04:19:10 -0700 (Mon, 17 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - Fixed some issues with the honored pricing.
+------------------------------------------------------------------------
+r275 | ckknight | 2006-04-17 01:16:50 -0700 (Mon, 17 Apr 2006) | 1 line
+
+FuBar_DurabilityFu - Initial Commit
+------------------------------------------------------------------------

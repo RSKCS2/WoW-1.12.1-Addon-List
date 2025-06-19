@@ -1,0 +1,76 @@
+Staves
+ITEMS_DB["Lorekeeper's Staff"] = { level = -3};
+ITEMS_DB["Advisor's Gnarled Staff"] = { level = -3};
+
+Bows
+ITEMS_DB["Outrider's Bow"] = { level = -3};
+ITEMS_DB["Outrunner's Bow"] = { level = -3};
+
+Plate
+ITEMS_DB["Berserker Bracers"] = { level = -5};
+ITEMS_DB["Defiler's Plate Girdle"] = { level = -3};
+ITEMS_DB["Defiler's Plate Greaves"] = { level = -3};
+ITEMS_DB["Highlander's Lamellar Girdle"] = { level = -3};
+ITEMS_DB["Highlander's Lamellar Greaves"] = { level = -3};
+ITEMS_DB["Highlander's Plate Girdle"] = { level = -3};
+ITEMS_DB["Highlander's Plate Greaves"] = { level = -3};
+ITEMS_DB["Sergeant Major's Plate Wristguards"] = { level = -5};
+ITEMS_DB["First Sergeant's Plate Bracers"] = { level = -5};
+
+1h Swords
+ITEMS_DB["Legionnaire's Sword"] = { level = -3};
+ITEMS_DB["Protector's Sword"] = { level = -3};
+
+Misc
+ITEMS_DB["Signet Ring of the Bronze Dragonflight"] = { level = -5};
+ITEMS_DB["Advisor's Ring"] = { level = -3};
+ITEMS_DB["Legionnaire's Band"] = { level = -3};
+ITEMS_DB["Protector's Band"] = { level = -3};
+ITEMS_DB["Scout's Medallion"] = { level = -3};
+ITEMS_DB["Senior Sergeant's Insignia"] = { level = -5};
+ITEMS_DB["Sentinel's Medallion"] = { level = -3};
+ITEMS_DB["Rune of Duty"] = { level = -5};
+ITEMS_DB["Rune of Perfection"] = { level = -5};
+ITEMS_DB["Talisman of Arathor"] = { level = -3};
+ITEMS_DB["Lorekeeper's Ring"] = { level = "-3"};
+ITEMS_DB["Master Sergeant's Insignia"] = { level = "-5"};
+
+Daggers
+ITEMS_DB["Scout's Blade"] = { level = -3};
+ITEMS_DB["Sentinel's Blade"] = { level = -3};
+
+Cloth
+ITEMS_DB["Battle Healer's Cloak"] = { level = -3};
+ITEMS_DB["Defiler's Cloth Boots"] = { level = -3};
+ITEMS_DB["Defiler's Cloth Girdle"] = { level = -3};
+ITEMS_DB["Dryad's Wrist Bindings"] = { level = -5};
+ITEMS_DB["First Sergeant's Silk Cuffs"] = { level = -5};
+ITEMS_DB["Highlander's Cloth Boots"] = { level = -3};
+ITEMS_DB["Highlander's Cloth Girdle"] = { level = -3};
+ITEMS_DB["Caretaker's Cape"] = { level = -3};
+ITEMS_DB["Sergeant Major's Silk Cuffs"] = { level = -5};
+ITEMS_DB["Sergeant's Cape"] = { level = -5};
+ITEMS_DB["Sergeant's Cloak"] = { level = -5};
+
+Mail
+ITEMS_DB["Highlander's Chain Girdle"] = { level = -3};
+ITEMS_DB["Highlander's Chain Greaves"] = { level = -3};
+ITEMS_DB["Defiler's Chain Girdle"] = { level = -3};
+ITEMS_DB["Defiler's Chain Greaves"] = { level = -3};
+ITEMS_DB["Defiler's Mail Girdle"] = { level = -3};
+ITEMS_DB["Defiler's Mail Greaves"] = { level = -3};
+ITEMS_DB["First Sergeant's Mail Wristguards"] = { level = -5};
+ITEMS_DB["Sergeant Major's Chain Armguards"] = { level = -5};
+
+Leather
+ITEMS_DB["Defiler's Leather Boots"] = { level = -3};
+ITEMS_DB["Defiler's Leather Girdle"] = { level = -3};
+ITEMS_DB["Defiler's Lizardhide Boots"] = { level = -3};
+ITEMS_DB["Defiler's Lizardhide Girdle"] = { level = -3};
+ITEMS_DB["Forest Stalker's Bracers"] = { level = -5};
+ITEMS_DB["Highlander's Leather Boots"] = { level = -3};
+ITEMS_DB["Highlander's Leather Girdle"] = { level = -3};
+ITEMS_DB["Highlander's Lizardhide Boots"] = { level = -3};
+ITEMS_DB["Highlander's Lizardhide Girdle"] = { level = -3};
+ITEMS_DB["Sergeant Major's Dragonhide Armsplints"] = { level = -5};
+ITEMS_DB["Sergeant Major's Leather Armsplints"] = { level = -5};

@@ -1,0 +1,19 @@
+## Interface: 11200
+## Title: ZHunterMod
+## Notes: Includes several features to make a hunter's life easier.
+## SavedVariablesPerCharacter: ZHunterMod_Saved
+Localization.lua
+Bindings.xml
+ZHunterTranq.xml
+ZHunterAIAmmo.lua
+ZHunterAIStrip.xml
+ZHunterAIPetAttack.lua
+ZHunterAIAntiDaze.lua
+ZHunterAIFeignHealth.lua
+ZHunterCastBar.xml
+ZSpellButtonTemplate.xml
+ZSpellButtonOptionsTemplate.xml
+ZHunterButtonTrack.xml
+ZHunterButtonAspect.xml
+ZHunterButtonTrap.xml
+ZHunterButtonPet.xml

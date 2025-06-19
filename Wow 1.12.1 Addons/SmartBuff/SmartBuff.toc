@@ -1,0 +1,7 @@
+## Interface: 11000
+## Title: SmartBuff
+## Version: 1.10d
+## Author: Aeldra
+## Notes: Cast the most important buffs on you or party/raid members/pets. Use << /sbm >> for options menu.
+## SavedVariablesPerCharacter: SMARTBUFF_Options
+SmartBuff.xml

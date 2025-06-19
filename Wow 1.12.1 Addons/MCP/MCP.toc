@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: Master Control Program
+## Author: Marc aka Saien on Hyjal
+## Notes: Addon loading control after login
+## Notes-koKR: 게임내의 애드온 관리 프로그램
+## SavedVariables: MCP_Config
+MCP.xml

@@ -1,0 +1,6 @@
+## Interface: 11200
+## Title: |cff0055FFLa Vendetta Boss Mods|r
+## Notes: Boss Mods for many Bosses
+## Author: Tandanu and Nitram
+## SavedVariables: LVBM_SavedVars, LVBMInfoFramePosition
+La_Vendetta_Boss_Mods.xml
