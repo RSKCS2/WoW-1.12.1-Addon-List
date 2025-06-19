@@ -32,6 +32,17 @@ Without MCP, addons must be managed manually.
 
 ## About
 
+This collection of addons is from the original Vanilla WoW era (patch 1.12.1)  
+and dates way before Blizzard revealed or released WoW Classic in 2019.  
+
+All these addons should work on the old Vanilla 1.12.1 client or private servers emulating it.  
+
+They **must NOT** be confused with:  
+- WoW Classic (current retail, patch 1.15.5+)  
+- Or any other newer Vanilla or Classic versions.
+
+Use accordingly.
+---
 These addons are from various creators across the WoW community.  
 I do **not** own any of the addons and take **no credit** for their work.  
 This project is purely for preservation and sharing, no money is made from it.
