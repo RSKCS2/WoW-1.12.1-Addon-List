@@ -1,6 +1,6 @@
 # WoW 1.12.1 Addon List
 
-This repo preserves a collection of World of Warcraft 1.12.1 Vanilla addons to ensure they do not become lost media.
+This repo preserves a collection of 872 addons for World of Warcraft Vanilla Patch 1.12.1, uploaded to ensure they do not become lost media.
 
 [Browse Addons](./Wow%201.12.1%20Addons%20(Click%20Here)) 📂
 
