@@ -1,4 +1,4 @@
-# WoW 1.12.1 Addon List 🎮
+# WoW 1.12.1 Addon List
 
 This repo preserves a collection of World of Warcraft 1.12.1 Vanilla addons to ensure they do not become lost media.
 
