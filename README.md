@@ -22,11 +22,7 @@ Browse the list of addons in the folder below and follow each addon’s instruct
 
 ## Recommended Addon Manager
 
-If you want an easy way to manage, sort, and toggle all your addons in WoW 1.12.1, you should really download and install **Molten Core Protector (MCP)**.
-
-MCP adds a convenient button in-game that lets you quickly enable or disable your addons without leaving the game. It’s lightweight, reliable, and made specifically for Vanilla WoW.
-
-Make sure to grab MCP to get the best addon management experience for this version!
+Without Molten Core Protector (MCP), WoW 1.12.1 addons must be managed manually. MCP is an addon manager that provides an in-game button to enable, disable, and sort addons efficiently.
 
 
 ---
