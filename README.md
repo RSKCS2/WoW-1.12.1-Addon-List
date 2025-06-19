@@ -30,7 +30,7 @@ Without MCP, addons must be managed manually.
 
 ---
 
-## About
+### About
 
 This collection of addons is from the original Vanilla WoW era (patch 1.12.1)  
 and dates way before Blizzard revealed or released WoW Classic in 2019.  
