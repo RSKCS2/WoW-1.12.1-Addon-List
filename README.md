@@ -40,6 +40,7 @@ All these addons should work on the old Vanilla 1.12.1 client or private servers
 They **must NOT** be confused with:  
 - WoW Classic (current retail, patch 1.15.5+)  
 - Or any other newer Vanilla or Classic versions.
+
 Use accordingly
 ---
 These addons are from various creators across the WoW community.  
