@@ -11,7 +11,7 @@ This repo preserves a collection of World of Warcraft 1.12.1 Vanilla addons to e
 ### Highly Recommended Addon❗
 
 Molten Core Protector (MCP) is an addon manager that provides an in-game button to enable, disable, and sort addons efficiently.  
-Without MCP, WoW 1.12.1 addons must be managed manually.
+Without MCP, addons must be managed manually.
 
 [Download Molten Core Protector (MCP)](https://github.com/RSKCS2/WoW-1.12.1-Addon-List/releases/download/1.12.1/Molten.Core.Protector.MCP.7z) ⬇️
 
