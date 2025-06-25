@@ -24,8 +24,8 @@ Without MCP, addons must be managed manually.
 3. Open `WoW-1.12.1-Vanilla\Interface\AddOns`.  
 4. Copy or move the addon folder(s) into the `AddOns` directory.  
 5. Launch World of Warcraft Patch 1.12.1.  
-6. At the character select screen, click **AddOns** (bottom-left).  
-7. In top right of AddOn List, Locate the Script Memory (MB) and type 0, and check Load out of date AddOns.
+6. ❗At the character select screen, click **AddOns** (bottom-left).  
+7. ❗In top right of AddOn List, Locate the Script Memory (MB) and type 0, and check Load out of date AddOns.
 8. Finished.
 
 ---
