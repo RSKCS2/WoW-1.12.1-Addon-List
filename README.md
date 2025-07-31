@@ -2,7 +2,7 @@
 
 This repo preserves a collection of 872 addons for World of Warcraft Vanilla Patch 1.12.1. They were uploaded here to ensure they do not become lost media.
 
-[Browse Addons](./Wow%201.12.1%20Addons%20(Click%20Here)) 📂
+[Browse Addons 📂](https://github.com/RSKCS2/WoW-1.12.1-Addon-List/tree/main/WoW%201.12.1%20Addons%20(Click%20Here))
 
 [Download Addons](https://github.com/RSKCS2/WoW-1.12.1-Addon-List/releases/download/Addon_Collection/WoW.1.12.1.Addons.7z) ⬇️
 
